@@ -1,0 +1,80 @@
+.sales-overview-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.sales-overview-card h2 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.overview-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.metric-box {
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  border-radius: 6px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.metric-box p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .sales-overview-card {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .sales-overview-card h2 {
+    font-size: 1.2rem;
+  }
+
+  .metric-box p {
+    font-size: 0.9rem;
+  }
+}
+
+.chart-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.chart-card h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.bar-chart-container {
+  margin-bottom: 15px;
+}
+
+.recharts-tooltip-wrapper {
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .chart-card {
+    max-width: 100%;
+  }
+}

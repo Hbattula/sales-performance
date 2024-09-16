@@ -1,0 +1,40 @@
+
+
+.chart-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .chart-card h3 {
+    font-size: 1.75rem;
+    color: #333; 
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+  
+  .recharts-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-card {
+      padding: 15px;
+    }
+  
+    .chart-card h3 {
+      font-size: 1.5rem;
+    }
+  
+    .LineChart {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  

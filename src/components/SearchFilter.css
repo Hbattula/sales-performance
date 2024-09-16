@@ -1,0 +1,41 @@
+/* SearchFilter.css */
+
+.search-filter {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.search-input {
+  margin-bottom: 20px;
+}
+
+.search-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price-range input {
+  width: 100%;
+}
+
+.price-range span {
+  font-size: 1rem;
+  color: #333;
+}
